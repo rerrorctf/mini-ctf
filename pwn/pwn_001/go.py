@@ -14,8 +14,8 @@ REMOTE_PORT = 9001
 
 elf = ELF(LOCAL_BINARY)
 
-p = process(LOCAL_BINARY)
-#p = remote(REMOTE_IP, REMOTE_PORT)
+#p = process(LOCAL_BINARY)
+p = remote(REMOTE_IP, REMOTE_PORT)
 #gdb.attach(p, gdbscript="")
 
 # pwn it here

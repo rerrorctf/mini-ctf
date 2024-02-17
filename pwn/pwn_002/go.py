@@ -12,8 +12,8 @@ LOCAL_BINARY = "./task"
 REMOTE_IP = "127.0.0.1"
 REMOTE_PORT = 9001
 
-p = process(LOCAL_BINARY)
-#p = remote(REMOTE_IP, REMOTE_PORT)
+#p = process(LOCAL_BINARY)
+p = remote(REMOTE_IP, REMOTE_PORT)
 #gdb.attach(p, gdbscript="")
 
 # pwn it here

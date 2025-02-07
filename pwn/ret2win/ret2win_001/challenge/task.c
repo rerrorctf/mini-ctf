@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-void shell() {
-    puts("[x] launching secret shell...");
-    char* args[] = {"/bin/sh", 0};
-    execve("/bin/sh", args, 0);
+void win() {
+    system("/bin/sh");
 }
 
 int main() {

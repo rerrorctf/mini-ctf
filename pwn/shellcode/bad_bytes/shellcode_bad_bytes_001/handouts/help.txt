@@ -1,0 +1,13 @@
+flag format: flag{**************}
+
+pwn this locally!
+
+you can either run it with docker compose:
+
+$ sudo docker compose up
+
+or just run the binary locally by itself
+
+one day we'll be able to afford a remote to pwn :)
+
+ask us if you have any questions / trouble!

@@ -1,11 +1,14 @@
 # Mini CTF
 
+--------
 
 ## Crypto
 
+--------
 
 ## Rev
 
+--------
 
 ## Pwn
 
@@ -21,49 +24,14 @@ https://github.com/rerrorctf/mini-ctf/tree/main/pwn/ret2win/ret2win_001
 
 https://github.com/rerrorctf/mini-ctf/tree/main/pwn/shellcode/bad_bytes/shellcode_bad_bytes_001
 
-
-#### Syscalls
-
 ----
 
 ### Return-Oriented Programming
 
-#### Syscalls
+#### Stack Pivoting
 
-TODO
-
-----
-
-### ret2libc
-
-TODO
-
-#### ret2libc without PIE
-
-TODO
-
-#### ret2libc with PIE
-
-TODO
-
-----
-
-### Stack Canaries
-
-TODO
-
-----
+https://github.com/rerrorctf/mini-ctf/tree/main/pwn/rop/stack_pivot/stack_pivot_001
 
 ### Format String
 
 https://github.com/rerrorctf/mini-ctf/tree/main/pwn/fmt_str/fmt_str_001
-
-TODO abitary reads / abitary writes
-
-----
-
-### Seccomp Filters
-
-TODO
-
-----

@@ -25,7 +25,7 @@ int main() {
         scanf("%ld", &buf[i]);
     }
 
-    *(uintptr_t*)buf[3] = (uintptr_t)buf[2];
+    *(uintptr_t*)(buf[3] & ~0xf) = (uintptr_t)buf[2];
 
     puts("cya!");
 

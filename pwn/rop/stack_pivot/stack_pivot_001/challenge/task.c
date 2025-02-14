@@ -21,7 +21,7 @@ int main() {
 
     setup();
 
-    for (int i = 0; i < 4; ++i){
+    for (int i = 0; i < 4; ++i) {
         scanf("%ld", &buf[i]);
     }
 

@@ -2,12 +2,12 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-void win() {
-    system("/bin/sh");
+void win(char const* cmd) {
+    system(cmd);
 }
 
 void free_bubblewrap() {
-    __asm__ volatile("pop rbx\n pop rcx\n pop rdx\n ret\n");
+    __asm__ volatile("pop rbx\n pop rcx\n pop rdx\n pop rax\n push rax\n mov rdi, rsp\n pop rbx\n ret\n");
 }
 
 void setup() {
@@ -17,15 +17,15 @@ void setup() {
 }
 
 int main() {
-    int64_t buf[10];
+    int64_t buf[4];
 
     setup();
 
-    for (int i = 0; i < 3; ++i){
+    for (int i = 0; i < 4; ++i){
         scanf("%ld", &buf[i]);
     }
 
-    *(uintptr_t*)buf[2] = (uintptr_t)buf[1];
+    *(uintptr_t*)buf[3] = (uintptr_t)buf[2];
 
     puts("cya!");
 

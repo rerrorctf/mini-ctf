@@ -1,0 +1,7 @@
+pwn this locally!
+
+you can either run it with docker compose:
+
+$ sudo docker compose up
+
+or just run the binary locally by itself

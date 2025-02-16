@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <sys/mman.h>
 
 typedef int (*code_t)();
 

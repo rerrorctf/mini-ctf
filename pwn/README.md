@@ -34,11 +34,13 @@ Task types listed roughly from easier => harder.
 1) fmt_str_read_flag_from_stack
 2) fmt_str_got_overwrite_read
 3) fmt_str_got_overwrite_read_pie
-4) fmt_str_got_overwrite_fgets
-5) fmt_str_got_overwrite_fgets_pie
-6) fmt_str_got_overwrite_fgets_no_leak
-7) fmt_str_got_overwrite_fgets_no_leak_pie
-8) fmt_str_rop
+4) fmt_str_got_overwrite_read_no_leak
+5) fmt_str_got_overwrite_read_no_leak_pie
+6) fmt_str_got_overwrite_fgets
+7) fmt_str_got_overwrite_fgets_pie
+8) fmt_str_got_overwrite_fgets_no_leak
+9) fmt_str_got_overwrite_fgets_no_leak_pie
+10) fmt_str_rop
 
 ## ret2plt
 

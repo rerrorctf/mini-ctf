@@ -29,6 +29,10 @@ Task types listed roughly from easier => harder.
 3) ret2libc_gets_canary
 4) ret2libc_fgets_canary
 
+## rop
+
+1) rop_stack_pivot
+
 ## fmt_str_got_overwrite
 
 1) fmt_str_read_flag_from_stack

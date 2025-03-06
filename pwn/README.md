@@ -33,7 +33,7 @@ Task types listed roughly from easier => harder.
 
 1) rop_stack_pivot
 
-## fmt_str_got_overwrite
+## fmt_str
 
 1) fmt_str_read_flag_from_stack
 2) fmt_str_got_overwrite_read

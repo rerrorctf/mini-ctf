@@ -19,10 +19,10 @@ p.sendlineafter(b"> ", keystream.hex().encode())
 nonce = bytes.fromhex(p.readline().decode())[:14]
 
 for i in range(0x10000):
-	key = nonce + p16(i)
-	flag = AES.new(key, AES.MODE_CTR, nonce=key[:14]).decrypt(flag_enc)
-	try:
-		print(flag.decode()[:-1])
-		break
-	except:
-		pass
+    key = nonce + p16(i)
+    flag = AES.new(key, AES.MODE_CTR, nonce=key[:14]).decrypt(flag_enc)
+    try:
+        print(flag.decode()[:-1])
+        break
+    except:
+        pass

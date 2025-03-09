@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-// the order is important to ensure (main&0xff) == (win&0xff)
+// the order is important to ensure (main&(~0xff)) == (win&(~0xff))
 
 int main() {
     setup();

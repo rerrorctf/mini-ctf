@@ -7,9 +7,11 @@ Task types listed roughly from easier => harder.
 1) shellcode_mmap
 2) shellcode_execstack
 3) shellcode_execstack_gets_leak
-4) shellcode_execstack_gets_no_leak
-5) shellcode_execstack_gets_no_leak_pie
-6) shellcode_mmap_bad_bytes
+4) shellcode_execstack_jmp_rsp
+5) shellcode_execstack_gets_no_leak
+6) shellcode_execstack_gets_no_leak_pie
+7) shellcode_execstack_jmp_rsp_pie
+8) shellcode_mmap_bad_bytes
 
 ## ret2win
 
@@ -32,6 +34,10 @@ Task types listed roughly from easier => harder.
 ## rop
 
 1) rop_stack_pivot
+
+## ret2csu
+
+1) ret2csu
 
 ## fmt_str
 

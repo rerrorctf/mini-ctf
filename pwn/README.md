@@ -31,6 +31,13 @@ Task types listed roughly from easier => harder.
 3) ret2libc_gets_canary
 4) ret2libc_fgets_canary
 
+## seccomp
+
+1) seccomp_shellcode_execstack
+2) seccomp_shellcode_execstack_no_open
+3) seccomp_shellcode_execstack_no_read_no_write
+4) seccomp_shellcode_execstack_gets_no_leak_pie
+
 ## rop
 
 1) rop_stack_pivot

@@ -36,7 +36,7 @@ Task types listed roughly from easier => harder.
 1) seccomp_shellcode_execstack
 2) seccomp_shellcode_execstack_no_open
 3) seccomp_shellcode_execstack_no_read_no_write
-4) seccomp_shellcode_execstack_gets_no_leak_pie
+4) seccomp_shellcode_execstack_gets_pie
 5) seccomp_rop_gets_pie
 6) seccomp_rop_gets_pie_only_read_write
 7) seccomp_rop_gets_no_read_no_write

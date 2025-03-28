@@ -2,6 +2,11 @@
 
 Task types listed roughly from easier => harder.
 
+## rand
+
+1) rand_srand_0
+2) rand_srand_time_0
+
 ## shellcode
 
 1) shellcode_mmap

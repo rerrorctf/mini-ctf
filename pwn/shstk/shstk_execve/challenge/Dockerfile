@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get upgrade -y && apt-get install -y socat strace
+RUN apt-get update && apt-get upgrade -y && apt-get install -y socat
 
 COPY task .
 

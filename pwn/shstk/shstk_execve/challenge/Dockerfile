@@ -13,4 +13,3 @@ EXPOSE 9001
 ENV GLIBC_TUNABLES=glibc.cpu.x86_shstk=on:glibc.cpu.x86_ibt=on
 
 CMD ["socat", "tcp-listen:9001,fork,reuseaddr", "exec:./task"]
-

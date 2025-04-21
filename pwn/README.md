@@ -83,6 +83,11 @@ Task types listed roughly from easier => harder.
 3) ret2dlresolve_pie
 4) ret2dlresolve_canary_pie
 
+## ret2gets
+
+1) ret2gets_system
+2) ret2gets_puts
+
 ## shstk
 
 1) shstk_execve
